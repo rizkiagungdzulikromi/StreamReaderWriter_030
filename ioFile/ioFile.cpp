@@ -23,4 +23,4 @@ int main() {
 		//menulis dan memasukan nilai dari 'baris' ke dalam file
 		outfile << baris << endl;
 	}
-}
+} 
