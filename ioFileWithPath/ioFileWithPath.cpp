@@ -7,7 +7,7 @@ int main() {
 	string baris;
 	string NamaFile;
 
-	cout << "Masukan NamaFile : ";
+	cout << "Masukan Nama File : ";
 	cin >> NamaFile;
 
 	//membuka file dalam mode menulis.
@@ -32,8 +32,8 @@ int main() {
 
 	//membuka file dalam mode membaca
 	ifstream infile;
-	//menunjuk ke sebuah file
-	infile.open("Contohfile.txt");
+	//menunjuk ke sebuah file 
+	infile.open(NamaFile + ".txt", ios::in); 
 
 	cout << endl << ">= Membuka dan membaca file " << endl;
 	//jika file ada maka
